@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
@@ -43,14 +44,14 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          RC
+          NR
         </a>
         <a
-          href="mailto:rajeshchittyal21@gmail.com"
+          href="mailto:niveditarai095@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          rajeshchittyal21@gmail.com
+          niveditarai095@gmail.com
         </a>
         <ul>
           <li>
